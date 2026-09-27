@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -205,14 +205,30 @@
     <button class="drawer-close" type="button" aria-label="Close menu">&times;</button>
     <div class="drawer-links">
       <a href="/">Home</a>
-      <a href="/services/">All 20 Services</a>
-      <a href="/locations/">All 50 Service Areas</a>
+      <details class="drawer-dd">
+        <summary>Services</summary>
+        <a href="/services/emergency-roof-tarping/">Emergency Roof Tarping</a>
+        <a href="/services/emergency-leak-repair/">Emergency Leak Repair</a>
+        <a href="/services/commercial-emergency-roof-repair/">Commercial Roof Repair</a>
+        <a href="/services/skylight-leak-repair/">Skylight Leak Repair</a>
+        <a href="/services/chimney-leak-repair/">Chimney Leak Repair</a>
+        <a href="/services/storm-damage-repair/">Storm &amp; Hail Restoration</a>
+        <a href="/services/" class="drawer-all">All 20 Services &rarr;</a>
+      </details>
       <a href="/about/">About Us</a>
-      <a href="/blog/">Blog & Guides</a>
+      <details class="drawer-dd">
+        <summary>Service Areas</summary>
+        <a href="/locations/roof-repair-in-pine-air/">Pine Air</a>
+        <a href="/locations/roof-repair-in-april-sound/">April Sound</a>
+        <a href="/locations/roof-repair-in-bentwater/">Bentwater</a>
+        <a href="/locations/roof-repair-in-river-plantation/">River Plantation</a>
+        <a href="/locations/roof-repair-in-wedgewood-forest/">Wedgewood Forest</a>
+        <a href="/locations/roof-repair-in-panorama-village/">Panorama Village</a>
+        <a href="/locations/" class="drawer-all">All 50 Service Areas &rarr;</a>
+      </details>
+      <a href="/blog/">Blog &amp; Guides</a>
       <a href="/contact/">Contact Us</a>
-      <a href="tel:+19363630579" class="button button-primary" style="margin-top:1.5rem; text-align:center;">
-        <i class="ph ph-phone" aria-hidden="true"></i> Call (936) 363-0579
-      </a>
+      <a href="tel:+19363630579" class="button button-primary" style="margin-top:1.5rem; text-align:center;"><i class="ph ph-phone"></i> Call (936) 363-0579</a>
     </div>
   </div>
 </header>
@@ -410,6 +426,25 @@
   </div>
 </section>
 
+
+
+<!-- 4b. What Homeowners Call Us For (unique local, customer-need) -->
+<section class="section" id="what-we-fix" data-need>
+  <div class="shell" style="max-width:1000px;">
+    <div class="section-heading centered">
+      <span class="eyebrow">How We Help</span>
+      <h2>What Harbour Town Homeowners Call Us For</h2>
+    </div>
+    <p style="font-size:1.05rem; line-height:1.75; color:var(--text-muted); margin-bottom:1.1rem;">When Harbour Town roofs fail, it usually shows up inside first: a ceiling stain, a musty smell, or a drip when it rains hard. We stop the water first, then make the permanent repair. Between spring storms that ride down the I-45 corridor carrying hail and straight-line wind and long, hard-driving Gulf rains that find every worn flashing and popped nail, Harbour Town roofs take a real beating, so we treat every call as urgent.</p>
+    <div class="grid grid-3" style="margin-top:1.5rem;">
+      <div class="service-card"><span style="font-size:2rem; font-weight:900; color:var(--accent); display:block; margin-bottom:0.5rem;">01</span><h3>Active Roof Leaks</h3><p>That first brown spot on the ceiling is the warning. We pinpoint where water is really getting in and seal it before it reaches your drywall.</p></div>
+      <div class="service-card"><span style="font-size:2rem; font-weight:900; color:var(--accent); display:block; margin-bottom:0.5rem;">02</span><h3>Storm &amp; Hail Damage</h3><p>After a Harbour Town storm we document every hail hit and wind-lifted shingle for your insurance claim, and repair or replace to code.</p></div>
+      <div class="service-card"><span style="font-size:2rem; font-weight:900; color:var(--accent); display:block; margin-bottom:0.5rem;">03</span><h3>Before the Next Rain</h3><p>Fallen limb, storm opening, or sudden leak? Our crew responds quickly to Harbour Town to protect what is inside.</p></div>
+    </div>
+    <div style="text-align:center; margin-top:2rem;"><a class="button button-primary" href="tel:+19363630579"><i class="ph ph-phone"></i> Call (936) 363-0579 for Harbour Town <span>&rarr;</span></a></div>
+  </div>
+</section>
+
 <!-- 5. Local Reviews -->
 <section class="section" id="reviews">
   <div class="shell">
@@ -582,6 +617,6 @@
 </div>
 
   
-  <script src="/assets/js/main.js?v=5" defer></script>
+  <script src="/assets/js/main.js?v=6" defer></script>
 </body>
 </html>
