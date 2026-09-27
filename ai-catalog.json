@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "name": "Conroe Emergency Roof Repair Pros",
+  "description": "24/7 emergency roof repair, leak repair, storm and hail damage restoration, and tarping in Conroe, TX and Montgomery County.",
+  "url": "https://emergencyroofrepairconroe.us",
+  "logo": "https://emergencyroofrepairconroe.us/assets/images/favicon.svg",
+  "contact": {
+    "telephone": "+19363630579",
+    "email": "dispatch@emergencyroofrepairconroe.us",
+    "address": "301 S San Jacinto St, Conroe, TX 77301, US"
+  },
+  "areaServed": ["Conroe TX", "Lake Conroe", "Willis", "The Woodlands", "Montgomery County TX"],
+  "services": [
+    { "name": "Emergency Leak Repair", "url": "https://emergencyroofrepairconroe.us/services/emergency-leak-repair/", "description": "Find and stop active roof leaks fast." },
+    { "name": "Emergency Roof Tarping", "url": "https://emergencyroofrepairconroe.us/services/emergency-roof-tarping/", "description": "Temporary tarping to stop water intrusion." },
+    { "name": "Storm & Hail Damage Repair", "url": "https://emergencyroofrepairconroe.us/services/storm-damage-repair/", "description": "Repair and insurance claim help after storms." },
+    { "name": "Chimney Leak Repair", "url": "https://emergencyroofrepairconroe.us/services/chimney-leak-repair/", "description": "Chimney flashing and masonry seal repair." },
+    { "name": "Skylight Leak Repair", "url": "https://emergencyroofrepairconroe.us/services/skylight-leak-repair/", "description": "Skylight curb flashing and seal repair." },
+    { "name": "Commercial Roof Repair", "url": "https://emergencyroofrepairconroe.us/services/commercial-emergency-roof-repair/", "description": "TPO, EPDM, PVC, and metal roofing." }
+  ],
+  "sameAs": ["https://www.facebook.com/people/Conroe-Emergency-Roof-Repair-Pros/61594587793989/"]
+}
