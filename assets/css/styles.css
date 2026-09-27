@@ -26,7 +26,7 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
   --shadow-lg: 0 12px 30px rgba(0,0,0,0.12);
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --shell-width: 1240px;
 }
 
@@ -1843,3 +1843,9 @@ details[open] .accordion-header::after {
     font-size: 0.8rem;
   }
 }
+
+/* ---- Phosphor icon alignment (added with design polish) ---- */
+i.ph, i[class^="ph-"], i[class*=" ph-"] { display:inline-block; vertical-align:-0.125em; line-height:1; font-style:normal; }
+.brand-mark i.ph, .brand-mark i[class*="ph-"] { font-size:1.15em; }
+.check-list li i[class*="ph-"] { color:var(--accent); }
+.footer-map-wrap i[class*="ph-"], .service-areas i.ph-map-pin { color:var(--accent); }
