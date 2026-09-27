@@ -1851,7 +1851,7 @@ i.ph, i[class^="ph-"], i[class*=" ph-"] { display:inline-block; vertical-align:-
 .footer-map-wrap i[class*="ph-"], .service-areas i.ph-map-pin { color:var(--accent); }
 
 /* White check-list text inside dark experience cards (Our Promise, Why Choose Us) */
-#our-promise .check-list li { color:#ffffff; }
+.experience-card:not([style*="#fff"]) .check-list li { color:#ffffff; }
 
 /* Floating phone pill (mobile) — replaces full-width bar */
 .sticky-call{position:fixed;bottom:16px;left:auto;right:16px;width:auto;background:var(--primary);border:none;border-top:none;border-radius:999px;padding:6px;box-shadow:0 8px 24px rgba(0,0,0,.35);}
